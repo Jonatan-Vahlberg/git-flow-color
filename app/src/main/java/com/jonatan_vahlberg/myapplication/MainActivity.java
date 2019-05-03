@@ -171,6 +171,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     class CustomTextView extends android.support.v7.widget.AppCompatTextView{
             //DECRAPTEATED
+            //IE not usable
             String initalColor = "#000000";
             String initalValue = "";
             int initalScaleX = 0;
