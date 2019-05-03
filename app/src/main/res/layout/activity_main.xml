@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:id="@+id/txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40sp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginVertical="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+
+            >
+            <Button
+                android:id="@+id/btn_take"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:text="Take"
+
+                />
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Add"
+                />
+            <Button
+                android:id="@+id/btn_grow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="grow"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btn_crazy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Crazy" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <Button
+                android:layout_marginTop="30dp"
+                android:id="@+id/btn_shrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Shrink"
+                />
+
+
+            <Button
+                android:id="@+id/btn_hide"
+                android:text="Hide"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="477dp"
+                android:layout_gravity="end"/>
+            <Button
+
+                android:layout_marginTop="30dp"
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Reset"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

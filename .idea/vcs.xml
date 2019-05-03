@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Eva" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GitAsignment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Layout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ShoppingList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ui_Layout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/androidmaster2/android-dead" vcs="Git" />
+  </component>
+</project>
